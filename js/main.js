@@ -10,7 +10,7 @@ for(let i = 1; i <13; i+=1){
     $caption[i]=$(`.c${i} p`).text().toLowerCase();
 }
 
-$('.lb-caption').html('<span>caption title</span>');
+
 
 $('#search').on('input',function(){
     $(".img").hide();
